@@ -15,7 +15,6 @@ import { VehicleBookingManagementSystemComponent } from './projects/vehicle-book
 import { ContactComponent } from './contact/contact.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: 'about-me', pathMatch: 'full' },
   { path: 'about-me', component: AboutMeComponent },
   { path: 'project-list', component: ProjectListViewComponent },
   // {path: 'pokemon-view', component: PokemonViewComponent},
